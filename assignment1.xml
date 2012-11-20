@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parents>
+  <parentA>
+    <child>A1</child>
+    <child>B1</child>
+    <child>C1</child>
+  </parentA>
+  <parentB>
+    <child>A2</child>
+    <child>B2</child>
+    <child>C2</child>
+  </parentB>
+  <parentC>
+    <child>A3</child>
+    <child>B3</child>
+    <child>C3</child>
+  </parentC>
+</parents>
