@@ -7,8 +7,8 @@
   </parentA>
   <parentB>
     <child>A</child>
-    <child>B2</child>
-    <child>C2</child>
+    <child>B</child>
+    <child>C</child>
   </parentB>
   <parentC>
     <child>A3</child>
