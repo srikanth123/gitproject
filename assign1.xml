@@ -6,7 +6,7 @@
     <child>C</child>
   </parentA>
   <parentB>
-    <child>A2</child>
+    <child>A</child>
     <child>B2</child>
     <child>C2</child>
   </parentB>
