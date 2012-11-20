@@ -2,7 +2,7 @@
 <parents>
   <parentA>
     <child>A</child>
-    <child>B1</child>
+    <child>B</child>
     <child>C1</child>
   </parentA>
   <parentB>
