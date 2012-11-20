@@ -3,7 +3,7 @@
   <parentA>
     <child>A</child>
     <child>B</child>
-    <child>C1</child>
+    <child>C</child>
   </parentA>
   <parentB>
     <child>A2</child>
