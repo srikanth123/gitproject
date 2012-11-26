@@ -5,7 +5,7 @@ add.sh
 log.sh
 create_branch.sh
 status.sh
-number_branch.sh
+display_branches.sh
 delete_branch.sh
 .DS_store
 
