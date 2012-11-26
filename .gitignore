@@ -2,6 +2,7 @@ formula1.xml
 checkout.sh
 checkin.sh
 add.sh
+add_all.sh
 log.sh
 create_branch.sh
 status.sh
