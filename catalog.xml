@@ -1,0 +1,19 @@
+
+<root>
+  <head>
+    <TITLE>LIPTA INFOTAINMENT SOLUTIONS PVT.LTD</TITLE>
+    <ARTIST>SRIKANTH</ARTIST>
+    <COUNTRY>INDIA</COUNTRY>
+    <COMPANY>Columbia</COMPANY>
+    <PRICE>10.90</PRICE>
+    <YEAR>1989</YEAR>
+  </head>
+  <CD>
+    <TITLE>Hide your heart</TITLE>
+    <ARTIST>Bonnie Tyler</ARTIST>
+    <COUNTRY>UK</COUNTRY>
+    <COMPANY>CBS Records</COMPANY>
+    <PRICE>9.90</PRICE>
+    <YEAR>1988</YEAR>
+  </CD>
+</root>
