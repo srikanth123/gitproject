@@ -1,4 +1,12 @@
 formula1.xml
+checkout.sh
+checkin.sh
+add.sh
+log.sh
+create_branch.sh
+status.sh
+number_branch.sh
+delete_branch.sh
 .DS_store
 
 
