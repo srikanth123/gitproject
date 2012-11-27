@@ -17,6 +17,7 @@ user_details.sh
 display_branches.sh
 b_all
 delete_branch.sh
+.bashrc
 .DS_store
 
 
