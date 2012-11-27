@@ -6,6 +6,7 @@ add_all.sh
 log.sh
 create_branch.sh
 status.sh
+st
 git_version.sh
 user_details.sh
 display_branches.sh
