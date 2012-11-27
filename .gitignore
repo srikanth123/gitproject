@@ -1,15 +1,21 @@
 formula1.xml
 checkout.sh
+checkout
 checkin.sh
+checkin
 add.sh
 add_all.sh
 log.sh
+log
 create_branch.sh
 status.sh
 status
+checkin
 git_version.sh
+version
 user_details.sh
 display_branches.sh
+b_all
 delete_branch.sh
 .DS_store
 
