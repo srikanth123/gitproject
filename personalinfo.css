@@ -1,0 +1,64 @@
+h1{
+text-align:center;
+font-family:bold;
+color:cyan;
+font-size:40px;
+margin-left: 400px;
+margin-right:400px;
+}
+h2 {
+margin-left:50px;
+margin-right:1410px;
+text-align:center;
+color:cyan;;
+font-size:30px;
+}
+form li {
+list-style: none;
+margin-bottom: 8px;
+}
+
+form ul li label{
+float: left;
+clear: left;
+text-align: left;
+margin-left:20px;
+width:515px;
+font-family:Times Roman;
+font-size:25px;
+}
+
+form ul li input, select, span {
+float: left;
+margin-bottom: 25px;
+font-size:15px;
+}
+
+form textarea {
+float: left;
+width: 350px;
+height: 150px;
+}
+
+[type="submit"] {
+clear: left;
+margin: 20px 0 0 230px;
+font-size:18px
+}
+
+p {
+margin-left: 60px;
+font-weight: bold;
+font-size:50px;
+}
+body{
+background-color:black;
+color:#FFE4B5;
+}
+div{
+background-color:black;
+color:#FFE4B5;
+}
+span{
+color:red;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>..PERSONAL INFORMATION..</title>
+<meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+<meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+<link rel='stylesheet' href='personalinfo.css' type='text/css' />
+ <script src="validate.js"></script>
+ <script src="personalinfo.js"></script>
+</head>
+<body onLoad="document.registration.firstname.focus();">
+<h1>LIPTA INFOTAINMENT SOLUTIONS PVT.LTD</h1>
+<br>
+<br>
+<br>
+<br>
+<h2>PERSONAL INFORMATION:</h2>
+<br>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<b style="font-size:25px">Photo[Less Than 240kb]:<b><input type=file id=fileUp onchange="getImg()">
+<img id=imgProbe src="" style="width:100px; display:block">
+<form method="post" action="personalinfo.php" name='registration' onsubmit="return formValidation()">
+<ul>
+<li><label for="firstname">First Name[Only Alphabets] <span>&#42;</span>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></li>
+<li><input type="text" name="firstname" size="65" ></li>
+<li><label for="lasttname">Last Name[Only Alphabets] <span>&#42;</span>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></li>
+<li><input type="text" name="lastname" size="65" /></li>
+<li><label for="emergency">Emergency Number[Only Numbers]<span>&#42;</span> :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></li>
+<li><input type="text" name="emergency" size="30" /></li>
+<li><label for="phonenumber">Phone number[Only Numbers] <span>&#42;</span>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></li>
+<li><input type="text" name="phonenumber" size="30" /></li>
+<li><label for="employee">Employee[Only Alphanumeric] :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></li>
+<li><input type="text" name="employee" size="65" onkeypress="return NumberKey(event)" /></li>
+<li><label for="address">Address[Only Alphanumeric] :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></li>
+<li><input type="text" name="address" size="65" onkeypress="return NumberKey(event)"/></li>
+<li><label for="visas">visas[Only Alphanumeric] :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></li>
+<li><input type="text" name="visas" size="65" onkeypress="return NumberKey(event)"/></li>
+<li><label for="education">Education[Only Alphanumeric] :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></li>
+<li><input type="text" name="education" size="65" onkeypress="return NumberKey(event)"/></li>
+<li><label for="email">Email[Valid Email Address] :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></li>
+<li><input type="text" name="email" size="65" /></li>
+
+<li><label for="aboutyou">About You[Only Alphanumeric] :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></li>
+<li><textarea name="aboutyou" onblur="alphanumeric3()" onkeypress="return NumberKey(event)"/></textarea></li>
+<li><input type="submit" name="submit" value="Submit" ></li>
+</ul>
+</form>
+
+</body>
+</html>
