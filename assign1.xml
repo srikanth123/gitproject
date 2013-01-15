@@ -12,7 +12,7 @@
   </parentB>
   <parentC>
     <child>Cheery</child>
-    <child>Solid</child>
+    <child>liquid</child>
     <child>BERRY</child>
   </parentC>
 </parents>
