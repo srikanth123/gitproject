@@ -8,11 +8,9 @@
   <parentB>
     <child>A</child>
     <child>B</child>
-<<<<<<< HEAD
+
     <child>Frog</child>
-=======
-    <child>hello</child>
->>>>>>> newbranch
+
   </parentB>
   <parentC>
     <child>Cheery</child>
